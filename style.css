@@ -1,5 +1,5 @@
 /*light blue #00ffff
-dark blue #243e1e
+dark blue #000066
 */
 
 /*heading font: font-family: 'Lobster', cursive;*/
@@ -8,26 +8,105 @@ dark blue #243e1e
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
-
-
-div{
-	height:100px;
-	width:50%;
-	display:inline-block;
+html, body {
+	padding: 0;  margin: 0;
 }
 
-.div1{
-	background-color: #00ffff;
-}
-
-.div2{
-	background-color: #000066;
-}
-
-h1{
+h1, h2, h3{
 	font-family: 'Lobster', cursive;
+	margin:5px;
 }
 
 p{
 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.clear{
+	clear:both;
+}
+
+.header {
+	background-color: #00ffff;
+	height: 140px;
+	display:block;
+}
+
+.name {
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	font-size: 42px;
+	color: #000066;
+	padding-top: 25px;	
+	padding-left: 40px;
+	width: 400px;
+	height: 75px;
+	display:inline-block;
+	float: left; 
+}
+
+.stacked-name{
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	color: #00ffff;
+	padding-top: 20px;	
+	padding-left: 40px;
+	width: 200px;
+	height: 75px;
+	display:inline-block;
+	float: left; 
+}
+
+#logo{
+	float:left;
+	margin:20px;
+}
+
+
+nav {
+	margin-bottom: 30px;
+	padding: 2px 0px 2px 0px;
+	background-color: #000066;
+}
+
+ul.top-nav {
+	list-style-type: none;
+}
+
+ul.top-nav li {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+ul.top-nav li a {
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul.bottom-nav{
+	height:130px;
+}
+
+ul.bottom-nav li a:hover {
+	color: #00ffff;
+}
+
+ul.bottom-nav li {
+	padding-right: 10px;
+}
+
+ul.bottom-nav li a {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #fff;
+	text-decoration: none;
+}
+
+ul.bottom-nav li a:hover {
+	color: #00ffff;
 }
