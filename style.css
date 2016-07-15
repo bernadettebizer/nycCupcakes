@@ -1,0 +1,33 @@
+/*light blue #00ffff
+dark blue #243e1e
+*/
+
+/*heading font: font-family: 'Lobster', cursive;*/
+/*text font: font-family: 'Open Sans Condensed', sans-serif; */
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+
+
+div{
+	height:100px;
+	width:50%;
+	display:inline-block;
+}
+
+.div1{
+	background-color: #00ffff;
+}
+
+.div2{
+	background-color: #000066;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+}
+
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
