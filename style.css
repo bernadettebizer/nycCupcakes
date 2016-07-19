@@ -12,24 +12,66 @@ html, body {
 	padding: 0;  margin: 0;
 }
 
-h1, h2, h3{
+h1, h2, h3, h6 {
 	font-family: 'Lobster', cursive;
 	margin:5px;
 }
 
+
+
+
 p{
 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img {
+	width: 250px;
+
 }
 
 .clear{
 	clear:both;
 }
 
-.header {
+
+/* Header and Footer*/
+
+#header {
+	clear: both;
+	float: left;
+	width: 100%;
+	min-height: 140px;
 	background-color: #00ffff;
-	height: 140px;
 	display:block;
 }
+
+#footer {
+	clear: both;
+	float: left;
+	width: 100%;
+	display:block;
+	padding-top: 15px;
+
+}
+
+#logo_header {
+	float:left;
+	width: 200px;
+	max-height: 200px;	 
+	padding: 10px;
+	display: inline-block;
+}
+
+#logo_footer{
+	float:left;
+	width: 100px;
+	max-height: 200px;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+/* --------------------------------------------------------*/
 
 .name {
 	font-family: 'Lobster', cursive;
@@ -40,7 +82,7 @@ p{
 	padding-left: 40px;
 	width: 400px;
 	height: 75px;
-	display:inline-block;
+	display: inline-block;
 	float: left; 
 }
 
@@ -56,12 +98,49 @@ p{
 	display:inline-block;
 	float: left; 
 }
+/* --------------------------------------------------------*/
 
-#logo{
-	float:left;
-	margin:20px;
+/* Order Menu*/
+
+#paragraph {
+	width: 700px;
+	margin: 80px;
 }
 
+#row {
+	clear: both;
+	float: left;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+
+}
+
+.row2 {
+	float: left;
+	width: 200px;
+	min-height: 200px;
+	margin: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+
+
+}
+
+.order-list {
+	clear: both;
+	float: left;
+	margin-left: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+/* --------------------------------------------------------*/
+
+/* Navigation*/
 
 nav {
 	margin-bottom: 30px;
@@ -70,6 +149,7 @@ nav {
 }
 
 ul.top-nav {
+	clear: both;
 	list-style-type: none;
 }
 
@@ -86,6 +166,11 @@ ul.top-nav li a {
 	color: #fff;
 	text-decoration: none;
 }
+
+ul.top-nav li a:hover {
+	color: #00ffff;
+}
+
 
 nav ul.bottom-nav{
 	height:130px;
@@ -110,3 +195,7 @@ ul.bottom-nav li a {
 ul.bottom-nav li a:hover {
 	color: #00ffff;
 }
+
+/* --------------------------------------------------------*/
+
+
