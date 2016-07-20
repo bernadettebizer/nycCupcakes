@@ -1,14 +1,37 @@
-.contact_column {
-	width:40%;
-	height:200px;
+.contact_column1, .contact_column2{
 	display: inline-block;
-	margin:3%;
+	margin-right: 3%;
+	margin-left: 3%;
 }
 
-.contact_column img {
-	width:100%;
+.contact_column2 img {
+	min-width:100%;
+	border-radius: 20px;
+	margin:10px;
+}
+
+.contact_column2{
+	width:40%;
+}
+
+.contact_column1{
+	width:15%;
+	margin-left:10%;
+	margin-top: 10px;
+	vertical-align: top;
+	text-align: left;
 }
 
 .container{
-	max-width:900px;
+	width:100%;
 }
+
+#address{
+	width:85px;
+}
+
+@media all and (max-width: 650px){
+	.contact_column1{
+		width:100%;
+	}
+};
