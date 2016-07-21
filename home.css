@@ -36,6 +36,10 @@ p {
 	text-align: center;
 }
 
+h3{
+	text-align: center;
+}
+
 @media all and (max-width: 792px){
 	.column{
 		width:100%;
