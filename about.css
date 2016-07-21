@@ -1,0 +1,14 @@
+
+h5 {
+	
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+
+}
+#paragraph2 {
+    float: left;
+    width: 250px;
+    height: 100px;
+
+    margin: 10px;
+}

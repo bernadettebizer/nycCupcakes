@@ -95,45 +95,26 @@ img {
 	display:inline-block;
 	float: left; 
 }
-/* --------------------------------------------------------*/
 
-/* Order Menu*/
+#about{
+	width:100%;
+	position: relative;
+	margin: 0 auto;
+}
 
 #paragraph {
-	width: 700px;
-	margin: 80px;
+	
+	padding-left: 10%;
+	padding-right: 20%;
+	margin: 0 auto;
 }
 
-#row {
-	clear: both;
-	float: left;
-	width: 100%;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-bottom: 30px;
-	box-sizing: border-box;
-	display: inline-block;
-
+#side {
+ 	width: 1%;
+ 	padding-left: 10%;
+	padding-right: 20%;
 }
 
-.row2 {
-	float: left;
-	width: 200px;
-	min-height: 200px;
-	margin: 30px;
-	box-sizing: border-box;
-	display: inline-block;
-
-
-}
-
-.order-list {
-	clear: both;
-	float: left;
-	margin-left: 30px;
-	box-sizing: border-box;
-	display: inline-block;
-}
 
 /* --------------------------------------------------------*/
 
