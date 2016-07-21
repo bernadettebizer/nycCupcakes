@@ -20,10 +20,14 @@
 	margin-top: 10px;
 	vertical-align: top;
 	text-align: left;
-}
+}	
 
 .container{
 	width:100%;
+}
+
+.contact_click{
+	text-align: center;
 }
 
 #address{
