@@ -6,16 +6,16 @@ $(document).ready(
 	}
 );
 
-var action1=1
+var action1=1 //variable value will indicate what action is called
 
 $("#image1").on("click", function(){
 	if(action1===1){
 		$(".clicker1").slideDown(1000)
-		action1=2
+		action1=2 //next time the "else" action will be called because the variable's value has changed
 	}
 	else {
 		$(".clicker1").slideUp(1000)
-		action1=1
+		action1=1 //reverts variable value to original to call first function on next click
 	}
 });
 
