@@ -48,14 +48,24 @@ h3{
 		width:50%;
 	}
 	.column p {
+		width:50%;
+		position:relative;
+		left:25%;
+	}
+	.column p {
 		text-align: center;
 		margin-top:15px;
-		margin-bottom: 30px
+		margin-bottom: 30px;
 	}
 	.topimage{
 		width:100%;
 	}
 };
 
+@media all and (width:100px) and (width: 395px){
+	#logo_header{
+		display: none;
+	}
+};
 
 
