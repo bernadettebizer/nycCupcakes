@@ -96,24 +96,6 @@ img {
 	float: left; 
 }
 
-#about{
-	width:100%;
-	position: relative;
-	margin: 0 auto;
-}
-
-#paragraph {
-	
-	padding-left: 10%;
-	padding-right: 20%;
-	margin: 0 auto;
-}
-
-#side {
- 	width: 1%;
- 	padding-left: 10%;
-	padding-right: 20%;
-}
 
 
 /* --------------------------------------------------------*/

@@ -3,12 +3,7 @@ $(document).ready(function () {
 	$(".row2").fadeOut();
 	$(".row2").fadeIn(1000);
 
-	// // $(".row2").click(function()){
-	// // 	$("div").animate({
-	// // 		width: 500,
-	// // 	}, 1000);
-	// }
-
+	
 	// Get the modal
 	var modal = document.getElementById("myModal");
 
